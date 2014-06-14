@@ -36,8 +36,10 @@ public class StochasticHelper {
     }
     
     public static void main(String[] args){
-        int result[] = DrawNOutOfMWithoutPuttingBack(6, 6);
-        for (int i=0; i<6; i++ ) {
+        int N = 7;
+        int M = 10;
+        int result[] = DrawNOutOfMWithoutPuttingBack(N, M);
+        for (int i=0; i<N; i++ ) {
             System.out.println(result[i]);
         }
     }
